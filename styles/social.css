@@ -1,13 +1,16 @@
 a.social {
   --bg-img: "";
   background-image: var(--bg-img);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   width: 1.5rem;
   height: 1.5rem;
   display: block;
   -webkit-background-clip: initial;
   background-clip: initial;
 
-  &[aria-label="tiktok"] {
+  &[aria-label="tiktok" i] {
     --bg-img: url(../assets/icons/tiktok.svg);
 
     &:hover {
@@ -15,7 +18,7 @@ a.social {
     }
   }
 
-  &[aria-label="instagram"] {
+  &[aria-label="instagram" i] {
     --bg-img: url(../assets/icons/instagram.svg);
 
     &:hover {
@@ -23,7 +26,7 @@ a.social {
     }
   }
 
-  &[aria-label="twitter"] {
+  &[aria-label="twitter" i] {
     --bg-img: url(../assets/icons/twitter.svg);
 
     &:hover {
@@ -31,7 +34,7 @@ a.social {
     }
   }
 
-  &[aria-label="discord"] {
+  &[aria-label="discord" i] {
     --bg-img: url(../assets/icons/discord.svg);
 
     &:hover {
